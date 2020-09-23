@@ -1,0 +1,22 @@
+.div--repo--container {
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.div--repo--container::-webkit-scrollbar {
+    display: none;
+  }
+
+.div--repo {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    max-width: 700px;
+    background-color: aliceblue;
+}
+
+.h3--repositories {
+    margin-left: 10px;
+}

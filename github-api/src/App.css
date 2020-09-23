@@ -1,0 +1,29 @@
+* {
+  margin: 10;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.div--navbar--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.div--content--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 750px) {
+  .div--content--container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

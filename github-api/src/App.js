@@ -31,8 +31,15 @@ const handleSubmit = (e) => {
   e.target.reset();
   e.preventDefault()
   fetch(`https://api.github.com/users/${userInput}`)
-    .then(res => res.json())
-    .then(data => setData(data))
+    .then(res => {
+      if (res.status === 200) {
+        res.json()
+        .then(data => setData(data))
+      } else {
+        alert("That user dosen't exist")
+      }
+    })
+    
     
 }
 

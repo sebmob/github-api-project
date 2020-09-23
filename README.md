@@ -12,8 +12,8 @@ npm i
 
 ## Usage
 
-```python
-Thw web app lets you search user on GitHub and view their repositories.
+```bash
+The web app let's you search users on GitHub and view their repositories.
 ```
 
 ## Contributing

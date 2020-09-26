@@ -2,12 +2,13 @@
 
 This is a React project using Githubs api.
 
-## Installation
+## Installation and Start
 
 Clone down the project files and cd into the projects folder and install dependencies with your package manager.
 
 ```bash
 npm i
+npm start
 ```
 
 ## Usage
